@@ -1,0 +1,93 @@
+body {
+  background: #111;
+}
+
+.alineacion-pagina{
+  border: none;
+  height: calc(100vh - 180px);
+  width: 100%;
+  margin-top: 70px;
+}
+.button-sociales{
+  overflow: hidden;
+  transition: 0.3s;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 0.5;
+}
+.button-sociales:hover{
+  z-index: 1;
+  transform: scale(1.2);
+  opacity: 1;
+}
+.icon-aling-social{
+  margin-top: 10px;
+}
+.icon-sociales-link{
+  width: 30px;
+  height: 30px;
+  padding: 11px;
+  overflow: hidden;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+.icon-sociales-link:hover{
+  z-index: 1;
+  transform: scale(1.2) rotate(15deg);
+  opacity: 1;
+}
+.fondo-empresa{
+  margin-top: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+.imagen-logo{
+  position: absolute;
+  width: 270px;
+  height: auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  opacity: 0.5;
+  transition: 1s;
+}
+.imagen-logo:hover{
+  z-index:1;
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+.image-fondo{
+    height: calc(100vh - 180px);
+    opacity: 0.1;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+.Texto-centrado{
+  font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  font-size: 13px;
+}
+.texto-zoom-predeterminado{
+  color: white;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.texto-zoom-predeterminado:hover{
+  z-index:1;
+  opacity: 1;
+  transform: scale(1.5);
+}

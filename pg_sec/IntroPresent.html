@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Arte y Forma Disenos Integrales SAC</title>
+		<link href="lib/estilo.css" rel="stylesheet"/>
+	<!-- Link Swiper's CSS -->
+			<link rel="stylesheet" href="../dist/css/swiper.min.css">
+</head>
+	<style>
+		html, body {
+				position: relative;
+				height: 100%;
+				}
+		body {
+				background: #111;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 14px;
+				color:#000;
+				margin: 0;
+				padding: 0;
+				}
+		.swiper-container {
+				width: 100%;
+				height: 100%;
+				}
+		.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #222;
+
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+				}
+			.imagen-presentacion{
+				border: none;
+				width: 100%;
+				height: auto;
+			}
+	</style>
+
+<body>
+	<!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img class="imagen-presentacion" src="https://gdurl.com/4J1b">
+						</div>
+						<div class="swiper-slide">
+							<img class="imagen-presentacion" src="https://gdurl.com/fSgS">
+						</div>
+						<div class="swiper-slide">
+							<img class="imagen-presentacion" src="https://gdurl.com/2xd1">
+						</div>
+						<div class="swiper-slide">
+							<img class="imagen-presentacion" src="https://gdurl.com/TN59">
+						</div>
+						<div class="swiper-slide">
+							<img class="imagen-presentacion" src="https://gdurl.com/Etl1">
+						</div>
+						<div class="swiper-slide">
+							<img class="imagen-presentacion" src="https://gdurl.com/cPTf">
+						</div>
+						<div class="swiper-slide">
+							<img class="imagen-presentacion" src="https://gdurl.com/uig5">
+						</div>
+						<div class="swiper-slide">
+							<img class="imagen-presentacion" src="https://gdurl.com/XVNH">
+						</div>
+						<div class="swiper-slide">
+							<img class="imagen-presentacion" src="https://gdurl.com/uqUK">
+						</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../dist/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+	    var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        nextButton: '.swiper-button-next',
+	        prevButton: '.swiper-button-prev',
+	        paginationClickable: true,
+	        spaceBetween: 30,
+	        centeredSlides: true,
+	        autoplay: 5000,
+	        autoplayDisableOnInteraction: false
+	    });
+    </script>
+
+</body>
+</html>
