@@ -3,17 +3,13 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>Arte y Forma - Gigantografia</title>
-	<link href="lib/estilo.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
 
-	<!-- plugins  MetroMenu-->
-				<!-- jQuery needed to run the puglin (needed) -->
-				<script src="static/js/jquery-1.9.0.min.js"></script>
-				<!-- Metro Menu Style -->
-				<link href="static/css/MetroMenu.css" rel="stylesheet" type="text/css" media="screen" />
-				<!-- Metro Menu JS -->
-				<script src="static/js/MetroMenu.min.js"></script>
-				<!-- Font Awesome 4.0.2 -->
-				<link rel="stylesheet" href="static/css/font-awesome.min.css">
+	<!-- Plugin introLoader CSS -->
+	<link rel="stylesheet" href="plugin_IntroLoader/css/introLoader.min.css">
+
+	<link href="lib/estilo.css" rel="stylesheet"/>
 
 	<!-- plugins  favicon -->
 				<!-- plugins Icono -->
@@ -28,167 +24,155 @@
 				<meta name="msapplication-config" content="icono/browserconfig.xml">
 				<meta name="theme-color" content="#ffffff">
 </head>
-<style>
 
-</style>
 <body>
 
-	<script type="text/javascript">
-
-	$(document).ready(function(){
-		$.MetroMenu(
-			{
-				backicon: "static/img/back.png",
-				animation: "fadeInDown",
-				position: "top",
-				withtooltip: true,
-				closeonclick: true,
-				escclose: true,
-					items:[
-					{ name: "Inicio",
-						icon: "img/icon/inicio.png",
-						link: href = "index.html",
-					},
-					{ name: "Empresa",
-						icon: "img/icon/empresa.png",
-						link: href = "empresa.html",
-					},
-					{ name: "Lo Que Hacemos",
-						icon: "img/icon/loquehacemos.png",
-									items:[{ name: "Gigantografia",
-										icon: "img/icon/gigantografia.png",
-													items:[{
-													name: "Luminosos",
-													icon: "img/icon/luminosos.png",
-													link: href = "luminosos.html",
-													},
-													{
-													name: "Soportes y Backing",
-													icon: "img/icon/soporteybacking.png",
-													link: href = "soporteybacking.html",
-													}]
-									},
-									{ name: "Viniles",
-										icon: "img/icon/viniles.png",
-													items:[{
-													name: "Holografico",
-													icon: "img/icon/holografico.png",
-													link: href = "holografico.html",
-													},
-													{
-													name: "Infantil",
-													icon: "img/icon/infantil.png",
-													link: href = "infantil.html",
-													},
-													{
-													name: "Corporativo",
-													icon: "img/icon/corporativo.png",
-													link: href = "corporativo.html",
-													},
-													{
-													name: "Decorativo",
-													icon: "img/icon/decorativo.png",
-													link: href = "decorativo.html",
-													},
-													{
-													name: "Vehicular",
-													icon: "img/icon/vehicular.png",
-													link: href = "vehicular.html",
-													},
-													{
-													name: "Microperforado",
-													icon: "img/icon/microperforado.png",
-													link: href = "microperforado.html",
-													},
-													{
-													name: "Arenado o Pavonado",
-													icon: "img/icon/arenadoopavonado.png",
-													link: href = "arenadoopavonado.html",
-													},
-													{
-													name: "Stikers",
-													icon: "img/icon/stikers.png",
-													link: href = "stikers.html",
-													}]
-									},
-									{ name: "Productos",
-										icon: "img/icon/productos.png",
-													items:[{
-													name: "Corporeos",
-													icon: "img/icon/corporeos.png",
-													link: href = "corporeos.html",
-													},
-													{
-													name: "Cajas Publicitarias",
-													icon: "img/icon/cajaspublicitarias.png",
-													link: href = "cajaspublicitarias.html",
-													},
-													{
-													name: "Modulos",
-													icon: "img/icon/modulos.png",
-													link: href = "modulos.html",
-													},
-													{
-													name: "Merchandising",
-													icon: "img/icon/merchandising.png",
-													link: href = "merchandising.html",
-													},
-													{
-													name: "Otros",
-													icon: "img/icon/productos.png",
-													link: href = "otros.html",
-													}]
-									},
-									{ name: "Servicio Laser",
-										icon: "img/icon/serviciolaser.png",
-													items:[{
-													name: "Gravado Laser",
-													icon: "img/icon/gravadolaser.png",
-													link: href = "gravadolaser.html",
-													},
-													{
-													name: "Corte Laser",
-													icon: "img/icon/cortelaser.png",
-													link: href = "cortelaser.html",
-													}]
-									},
-									{ name: "Servicio 3D",
-										icon: "img/icon/servicio3d.png",
-										link: href = "servicio3d.html",
-									},]
-					},
-					{ name: "Contacto",
-						icon: "img/icon/contacto.png",
-						link: href = "contacto.html",
-					},]
-
-			},
-			function(optionClicked)
-			{			}
-		);
-	});
-	</script>
+	<nav class="menu-top-personalizado">
+<ul>
+<li><a href="index.html">
+<img class="icono-menu-slicer" src="img/icon/inicio.png"></img>
+INICIO &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+</li>
+<li><a href="empresa.html">
+<img class="icono-menu-slicer" src="img/icon/empresa.png"></img>
+EMPRESA &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+</li>
+<li><a href="#">
+<img class="icono-menu-slicer" src="img/icon/loquehacemos.png"></img>
+LO QUE HACEMOS &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+<ul>
+	<li><a href="#">Gigantografias
+				<img class="icono-menu-slicer" src="img/icon/gigantografia.png"></img>
+			</a>
+		<ul>
+			<li><a href="gigantografia.html">
+				<img class="icono-menu-slicer" src="img/icon/gigantografia.png"></img>
+				Banner y Bastidores</a></li>
+			<li><a href="luminosos.html">
+				<img class="icono-menu-slicer" src="img/icon/luminosos.png"></img>
+				Luminosos</a></li>
+			<li><a href="soporteybacking.html">
+				<img class="icono-menu-slicer" src="img/icon/soporteybacking.png"></img>
+				Soportes y Backing</a></li>
+		</ul>
+	</li>
+	<li><a href="#">
+		<img class="icono-menu-slicer" src="img/icon/viniles.png"></img>
+		Viniles</a>
+		<ul>
+			<li><a href="holografico.html">
+				<img class="icono-menu-slicer" src="img/icon/holografico.png"></img>
+				Holografico</a></li>
+			<li><a href="infantil.html">
+				<img class="icono-menu-slicer" src="img/icon/infantil.png"></img>
+				Infantil</a></li>
+			<li><a href="corporativo.html">
+				<img class="icono-menu-slicer" src="img/icon/corporativo.png"></img>
+				Corporativo</a></li>
+			<li><a href="decorativo.html">
+				<img class="icono-menu-slicer" src="img/icon/decorativo.png"></img>
+				Decorativo</a></li>
+			<li><a href="vehicular.html">
+				<img class="icono-menu-slicer" src="img/icon/vehicular.png"></img>
+				Vehicular</a></li>
+			<li><a href="microperforado.html">
+				<img class="icono-menu-slicer" src="img/icon/microperforado.png"></img>
+				Microperforado</a></li>
+			<li><a href="arenadoopavonado.html">
+				<img class="icono-menu-slicer" src="img/icon/arenadoopavonado.png"></img>
+				Arenado y Pavonado</a></li>
+			<li><a href="stikers.html">
+				<img class="icono-menu-slicer" src="img/icon/stikers.png"></img>
+				Stikers</a></li>
+		</ul>
+	</li>
+	<li><a href="#">
+		<img class="icono-menu-slicer" src="img/icon/productos.png"></img>
+		Productos</a>
+		<ul>
+			<li><a href="corporeos.html">
+				<img class="icono-menu-slicer" src="img/icon/corporeos.png"></img>
+				Corporeos</a></li>
+			<li><a href="cajaspublicitarias.html">
+				<img class="icono-menu-slicer" src="img/icon/cajaspublicitarias.png"></img>
+				Cajas Publicitarias</a></li>
+			<li><a href="modulos.html">
+				<img class="icono-menu-slicer" src="img/icon/modulos.png"></img>
+				Modulos</a></li>
+			<li><a href="merchandising.html">
+				<img class="icono-menu-slicer" src="img/icon/merchandising.png"></img>
+				Merchandising</a></li>
+			<li><a href="otros.html">
+				<img class="icono-menu-slicer" src="img/icon/productos.png"></img>
+				Otros</a></li>
+		</ul>
+	</li>
+	<li><a href="#">
+		<img class="icono-menu-slicer" src="img/icon/serviciolaser.png"></img>
+		Servicio Laser</a>
+		<ul>
+			<li><a href="cortelaser.html">
+				<img class="icono-menu-slicer" src="img/icon/cortelaser.png"></img>
+				Corte Laser</a></li>
+			<li><a href="gravadolaser.html">
+				<img class="icono-menu-slicer" src="img/icon/gravadolaser.png"></img>
+				Gravado Laser</a></li>
+		</ul>
+	</li>
+	<li><a href="servicio3d.html">
+		<img class="icono-menu-slicer" src="img/icon/servicio3d.png"></img>
+		Servicio 3D</a></li>
+</ul>
+</li>
+<li><a href="contacto.html">
+<img class="icono-menu-slicer" src="img/icon/contacto.png"></img>
+CONTACTO &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+</li>
+</nav>
 
 <iframe class="alineacion-pagina" src="pg_sec/GigantPresent.html"></iframe>
 
 <div class="icon-aling-social" align="center">
-	<a href="https://www.facebook.com/ArteyFormaSAC/" target="_blank">
-		<img class="icon-sociales-link" src="https://gdurl.com/DueY">
-	</a>
-	<a href="https://twitter.com/arteyforma2017" target="_blank">
-		<img class="icon-sociales-link" src="https://gdurl.com/NejT">
-	</a>
-	<a>
-		<img class="button-sociales" width="150px" height="60px" src="https://gdurl.com/X1v7">
-	</a>
-	<a href="https://www.instagram.com/lilianajulcamoro/" target="_blank">
-		<img class="icon-sociales-link" src="https://gdurl.com/6h3l">
-	</a>
-	<a href="https://www.youtube.com/channel/UCeGj8c7UjCTwfZCcuQji03g" target="_blank">
-		<img class="icon-sociales-link" src="https://gdurl.com/a9Y3">
-	</a>
-
+<a class="icon-sociales-link" style="background-image: url(https://gdurl.com/DueY)" href="https://www.facebook.com/ArteyFormaSAC/" target="_blank"></a>
+<a class="icon-sociales-link" style="background-image: url(https://gdurl.com/NejT)" href="https://twitter.com/arteyforma2017" target="_blank"></a>
+<img class="button-sociales" style="margin-bottom: 25px" width="100px" height="auto" src="https://gdurl.com/X1v7">
+<a class="icon-sociales-link" style="background-image: url(https://gdurl.com/6h3l)" href="https://www.instagram.com/lilianajulcamoro/" target="_blank"></a>
+<a class="icon-sociales-link" style="background-image: url(https://gdurl.com/a9Y3)" href="https://www.youtube.com/channel/UCeGj8c7UjCTwfZCcuQji03g" target="_blank"></a>
 </div>
+
+    <!--Plugin introLoader -->
+    <div id="element" class="introLoading"></div>
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+
+    <!-- Plugin introLoader JS -->
+    <script src="plugin_IntroLoader/js/jquery.introLoader.pack.min.js"></script>
+
+    <script type="text/javascript">
+    //Loader con plugin introLoader
+        //Ejemplo - 1 básico
+        $("#element").introLoader({
+            animation: {
+                name: 'simpleLoader', //nombre de la animación
+                options: {
+                    exitFx:'slideDown', //efecto de salida de la animación
+                    ease: "easeOutSine",
+                    style: 'dark', //estilos de colores
+                    delayBefore: 10000, //tiempo en ms que dura la animación, luego de que se cargó la página
+                    exitTime: 500 //tiempo en ms que dura la animación de salida
+                }
+            },
+            spinJs: {
+                lines: 20, // The number of lines to draw
+                length: 10, // The length of each line
+                width: 2, // The line thickness
+                radius: 15, // The radius of the inner circle
+                corners: 1, // Corner roundness (0..1)
+                color: '#fff', // #rgb or #rrggbb or array of colors
+            }
+        });
+    </script>
 
 </body>
 </html>
