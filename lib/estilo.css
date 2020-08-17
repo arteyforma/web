@@ -64,17 +64,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .texto-zoom-predeterminado{
   color: white;
+  font-size: 18px;
   opacity: 0.75;
   transition: 4s;
   margin: auto;
 }
 .texto-zoom-predeterminado:hover{
   opacity: 1;
-  transform: scale(2);
+  font-size: 25px;
 }
 /*barra de menu*/
     .icono-menu-slicer{
